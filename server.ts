@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-    origin: ['https://www.namastebitcoin.com/', 'https://main.d1y5app4sm6x4j.amplifyapp.com/'],
+    origin: ['https://www.namastebitcoin.com', 'https://main.d1y5app4sm6x4j.amplifyapp.com'],
     methods: ['GET', 'POST', 'OPTIONS'],
     allowedHeaders: ['Content-Type'],
 }));
